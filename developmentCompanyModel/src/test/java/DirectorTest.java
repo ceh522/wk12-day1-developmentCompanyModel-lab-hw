@@ -35,8 +35,8 @@ public class DirectorTest {
     }
 
     @Test
-    public void hasBudget(){
-        assertEquals(1000000, director.getBudget());
+    public void hasBudget() {
+        assertEquals(1000000.0, director.getBudget(), 0);
     }
 
     @Test
